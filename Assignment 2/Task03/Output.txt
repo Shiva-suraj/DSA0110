@@ -1,0 +1,10 @@
+charge(2) [int grams]: 40.04
+charge(2.0) [double kg]: 80.00
+charge(2.0f) [float kg]: 80.00
+charge(1500) [int grams]: 70.00
+charge(2.5, true) [double + express]: 120.00
+charge(Parcel): 145.00
+
+Original overload experiment:
+error: call of overloaded 'charge(double)' is ambiguous
+The redesigned program compiles and runs.
