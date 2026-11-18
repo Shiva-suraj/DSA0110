@@ -50,8 +50,9 @@ done
 
 - Each task has its own folder and C++ source.
 - `REPORT.md` contains expanded explanations, pseudocode, output predictions, test cases, hand calculations and Big-O analysis.
-- `outputs/` stores captured outputs, compiler diagnostics and sanitizer logs.
-- `screenshots/` stores terminal-style SVG captures made from the actual recorded output text.
+- `EXPERIMENTS.md` records measured timings, seat-map memory estimates, prediction checks and sanitizer/compiler evidence.
+- Each task folder contains its source, `Output.txt` and `Screenshot.svg`; extra benchmark and diagnostic files are stored beside the relevant task.
+- The SVG captures are terminal-style images generated from the actual recorded program output text, not photographs of a physical terminal.
 - Negative demonstrations (expected compile error, reorder warning, shallow-copy double-free and intentional memory leak) are clearly labelled.
 
 ## Academic integrity and submission
