@@ -1,0 +1,10 @@
+Original overlapping overload declarations:
+double charge(double weight);
+double charge(double weight, bool express);
+double charge(double weight, bool express=false, bool insured=false);
+
+Compile diagnostic:
+error: call of overloaded 'charge(double)' is ambiguous
+Candidates include charge(double) and charge(double,bool,bool) with default arguments.
+
+This is the expected compile-time error for the original design. Task03_Overloading.cpp is the redesigned version that compiles and runs.
