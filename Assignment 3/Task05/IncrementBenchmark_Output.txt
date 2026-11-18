@@ -1,0 +1,7 @@
+-O0
+prefix: 26.1118 ms, value=10000000
+postfix: 57.2773 ms, value=10000000
+
+-O2
+prefix: 3.43664 ms, value=10000000
+postfix: 23.7475 ms, value=10000000
