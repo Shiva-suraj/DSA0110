@@ -268,3 +268,54 @@ Constructors establish valid object state, destructors release owned resources, 
 
 ## Viva preparation
 Be ready to explain constructor delegation, declaration-order initialisation, explicit, shallow versus deep copy, Rule of Three/Zero, RAII, delete[] pairing, prefix versus postfix, stream operator placement, operator-overloading restrictions, and the Big-O costs of copying and concatenation.
+
+
+## Experimental Measurements (additional evidence)
+
+The following are measured values from one run using GNU g++ 14.2.0. They are illustrative and depend on the computer, compiler and system load.
+
+### Prescription copy benchmark
+Twenty deep copies were measured for each medicine count using the raw-array copy constructor.
+
+| Medicine count | Time for 20 copies |
+|---:|---:|
+| 10 | 0.017846 ms |
+| 1,000 | 0.209851 ms |
+| 100,000 | 35.1181 ms |
+
+The increase is consistent with O(n) work to copy n medicine names.
+
+### Money benchmark: one million additions
+| Representation | Time | Final value |
+|---|---:|---:|
+| Integer paise | 1.31424 ms | 17,000,123 paise |
+| double | 4.572657 ms | 170001.230001761 |
+
+The floating-point result shows a small accumulation/representation difference. Integer paise is preferred for fixed two-decimal currency values. These times are not universal performance guarantees.
+
+### Prefix and postfix benchmark: ten million increments
+| Build | Prefix ++ | Postfix ++ |
+|---|---:|---:|
+| -O0 | 26.1118 ms | 57.2773 ms |
+| -O2 | 3.43664 ms | 23.7475 ms |
+
+The benchmark uses a volatile stored counter to prevent loop elimination; volatile access adds overhead. Postfix also preserves and returns the old value, which introduces additional copying for a class type.
+
+### Text and std::string: 100,000 short concatenations
+| Implementation | Time | Total result characters |
+|---|---:|---:|
+| Custom Text with + | 7.76338 ms | 1,000,000 |
+| std::string with + | 1.78922 ms | 1,000,000 |
+
+The standard library string was faster in this measured run and should normally be preferred in application code.
+
+### Seat-map memory estimates
+Assuming a 64-bit environment with 8-byte pointers and 1-byte char elements, seat storage plus the row-pointer array is estimated as follows. Allocator metadata and alignment are excluded.
+
+| Map size | Seat bytes | Pointer bytes | Approximate total |
+|---|---:|---:|---:|
+| 10 × 20 | 200 | 80 | 280 bytes |
+| 100 × 200 | 20,000 | 800 | 20,800 bytes |
+| 1,000 × 2,000 | 2,000,000 | 8,000 | 2,008,000 bytes |
+
+The row-pointer implementation makes one allocation for the pointer array and one allocation per row.
