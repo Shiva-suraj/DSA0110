@@ -1,0 +1,12 @@
+Created event 2x3
+. . .
+. . B
+Created event 1x2
+Closed event; seats currently booked=1
+Created event 2x2
+Closed event; seats currently booked=1
+Created event 0x5
+Closed event; seats currently booked=0
+Closed event; seats currently booked=1
+Logger prediction and execution:
++A +B -B copyAc use -Ac +P -P end -A
