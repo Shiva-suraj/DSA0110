@@ -1,0 +1,3 @@
+10 medicines: 0.017846 ms for 20 copies
+1000 medicines: 0.209851 ms for 20 copies
+100000 medicines: 35.1181 ms for 20 copies
