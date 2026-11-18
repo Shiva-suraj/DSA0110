@@ -1,0 +1,3 @@
+The intentionally shallow-copy demonstration produced:
+ERROR: AddressSanitizer: attempting double-free
+This negative test illustrates why copying an owning raw pointer without a deep-copy constructor is unsafe.
