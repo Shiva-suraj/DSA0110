@@ -1,0 +1,1 @@
+The completed Text program was compiled with AddressSanitizer and UndefinedBehaviorSanitizer and completed normally. No sanitizer diagnostic was recorded.
