@@ -1,0 +1,6 @@
+Command: g++ -std=c++17 -Wall -Wextra -Wpedantic -c DanglingReference_Diagnostic.cpp
+
+warning: reference to local variable 'local' returned [-Wreturn-local-addr]
+note: declared here: int local = 25;
+
+The source intentionally returns a reference to a local variable. It was compiled to capture this warning and was not executed because using the dangling reference is undefined behaviour.
