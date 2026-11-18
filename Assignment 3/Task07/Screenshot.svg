@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="182" viewBox="0 0 850 182">
+<rect width="100%" height="100%" rx="12" fill="#101820"/>
+<rect width="100%" height="42" rx="12" fill="#263746"/>
+<circle cx="22" cy="21" r="6" fill="#e06c75"/><circle cx="44" cy="21" r="6" fill="#e5c07b"/><circle cx="66" cy="21" r="6" fill="#98c379"/>
+<text x="90" y="27" font-family="Arial,sans-serif" font-size="15" fill="#fff">Task07 – captured console output</text>
+<text x="28" y="76" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">R = 10.00 + j0.00, |R| = 10.00</text><text x="28" y="101" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Series RLC impedance = 10.00 - j90.00, magnitude = 90.55</text><text x="28" y="126" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Parallel R-L impedance = 5.00 + j5.00, magnitude = 7.07</text><text x="28" y="151" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Safe error: division by zero impedance</text>
+</svg>
