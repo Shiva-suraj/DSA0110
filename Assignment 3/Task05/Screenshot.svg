@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="307" viewBox="0 0 850 307">
+<rect width="100%" height="100%" rx="12" fill="#101820"/>
+<rect width="100%" height="42" rx="12" fill="#263746"/>
+<circle cx="22" cy="21" r="6" fill="#e06c75"/><circle cx="44" cy="21" r="6" fill="#e5c07b"/><circle cx="66" cy="21" r="6" fill="#98c379"/>
+<text x="90" y="27" font-family="Arial,sans-serif" font-size="15" fill="#fff">Task05 – captured console output</text>
+<text x="28" y="76" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">a=0:59:59, b=1:00:01, t=1:00:01</text><text x="28" y="101" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">x&lt;y: true</text><text x="28" y="126" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Rollover: 1:00:00</text><text x="28" y="151" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Now playing: Song A</text><text x="28" y="176" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Updated: Remixed Song A</text><text x="28" y="201" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Checked access: playlist index out of range</text><text x="28" y="226" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">End access: playlist index out of range</text><text x="28" y="251" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Counter prediction and execution:</text><text x="28" y="276" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">5 7 7</text>
+</svg>
