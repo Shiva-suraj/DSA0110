@@ -1,0 +1,4 @@
+R = 10.00 + j0.00, |R| = 10.00
+Series RLC impedance = 10.00 - j90.00, magnitude = 90.55
+Parallel R-L impedance = 5.00 + j5.00, magnitude = 7.07
+Safe error: division by zero impedance
