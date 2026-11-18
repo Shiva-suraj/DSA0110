@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="182" viewBox="0 0 850 182">
+<rect width="100%" height="100%" rx="12" fill="#101820"/>
+<rect width="100%" height="42" rx="12" fill="#263746"/>
+<circle cx="22" cy="21" r="6" fill="#e06c75"/><circle cx="44" cy="21" r="6" fill="#e5c07b"/><circle cx="66" cy="21" r="6" fill="#98c379"/>
+<text x="90" y="27" font-family="Arial,sans-serif" font-size="15" fill="#fff">Task01 – captured console output</text>
+<text x="28" y="76" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Title: Untitled, Copies: 0, Author: Unknown</text><text x="28" y="101" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Title: The Alchemist, Copies: 1, Author: Unknown</text><text x="28" y="126" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Title: Clean Code, Copies: 4, Author: Robert C. Martin</text><text x="28" y="151" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Rejected: number of copies cannot be negative</text>
+</svg>
