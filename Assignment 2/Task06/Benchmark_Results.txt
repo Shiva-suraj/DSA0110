@@ -1,0 +1,10 @@
+GNU g++ 14.2.0, C++17, 10,000,000 calls per case.
+-O0:
+inline calls: 27.7636 ms, checksum=2050000000
+out-of-line calls: 31.2967 ms, checksum=2050000000
+
+-O2:
+inline calls: 3.95762 ms, checksum=2050000000
+out-of-line calls: 3.89772 ms, checksum=2050000000
+
+These are one-run measurements. The same checksum confirms equivalent calculation. At -O2 the difference is negligible; compiler optimisation may inline functions even without the inline keyword.
