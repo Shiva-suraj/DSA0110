@@ -1,0 +1,12 @@
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+Esha: Waiting
+Count inside function: 3
+Esha: Waiting
+Count inside function: 3
+
+Token prediction:
+101 103 104 4
