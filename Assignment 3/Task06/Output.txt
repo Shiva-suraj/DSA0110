@@ -1,0 +1,6 @@
+Hello World!
+Empty text: []
+Self assignment: Hello 
+a==same: true, a!=b: true
+This is a longer message used to test dynamic character storage safely.
+AddressSanitizer/UBSan: completed without reported errors.
