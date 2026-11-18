@@ -1,0 +1,11 @@
+205 false
+10 true
+0 false
+
+Inline benchmark -O0:
+inline calls: 27.7636 ms, checksum=2050000000
+out-of-line calls: 31.2967 ms, checksum=2050000000
+
+Inline benchmark -O2:
+inline calls: 3.95762 ms, checksum=2050000000
+out-of-line calls: 3.89772 ms, checksum=2050000000
