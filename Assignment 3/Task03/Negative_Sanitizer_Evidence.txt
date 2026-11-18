@@ -1,0 +1,4 @@
+The intentional missing-delete demonstration produced:
+ERROR: LeakSanitizer: detected memory leaks
+Direct leak of 400 byte(s) in 1 object(s)
+This negative test is included to demonstrate the effect of forgetting delete[].
