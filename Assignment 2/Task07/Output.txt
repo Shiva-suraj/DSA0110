@@ -1,0 +1,4 @@
+Shift array time: 22.186 ms
+Circular buffer time: 9.473 ms
+Same final 50 values: true
+First retained: 1999950, last retained: 1999999
