@@ -1,0 +1,7 @@
+Compiler: GNU g++ (Debian 14.2.0-19) 14.2.0
+Language standard: C++17
+Warnings: -Wall -Wextra -Wpedantic
+Normal compile: g++ -std=c++17 -Wall -Wextra -Wpedantic -O0 source.cpp -o program
+Run: ./program
+Optimised benchmark: g++ -std=c++17 -Wall -Wextra -Wpedantic -O2 source.cpp -o program
+Run: ./program
