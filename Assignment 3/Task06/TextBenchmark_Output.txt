@@ -1,0 +1,2 @@
+Custom Text +: 7.76338 ms, characters=1000000
+std::string +: 1.78922 ms, characters=1000000
