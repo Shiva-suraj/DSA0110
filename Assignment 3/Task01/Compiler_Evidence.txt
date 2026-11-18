@@ -1,0 +1,8 @@
+Expected compile failure when default constructor is removed:
+error: no matching function for call to Book::Book()
+The array declaration Book shelf[3] requires a no-argument constructor for each element.
+
+Expected -Wreorder warning:
+warning: OrderDemo::second will be initialized after OrderDemo::first
+warning: member OrderDemo::second is used uninitialized
+This is a deliberately unsafe warning demonstration, not the correct constructor pattern.
