@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="232" viewBox="0 0 850 232">
+<rect width="100%" height="100%" rx="12" fill="#101820"/>
+<rect width="100%" height="42" rx="12" fill="#263746"/>
+<circle cx="22" cy="21" r="6" fill="#e06c75"/><circle cx="44" cy="21" r="6" fill="#e5c07b"/><circle cx="66" cy="21" r="6" fill="#98c379"/>
+<text x="90" y="27" font-family="Arial,sans-serif" font-size="15" fill="#fff">Task06 – captured console output</text>
+<text x="28" y="76" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Hello World!</text><text x="28" y="101" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Empty text: []</text><text x="28" y="126" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">Self assignment: Hello </text><text x="28" y="151" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">a==same: true, a!=b: true</text><text x="28" y="176" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">This is a longer message used to test dynamic character storage safely.</text><text x="28" y="201" font-family="Consolas,monospace" font-size="16" fill="#d7e3f4">AddressSanitizer/UBSan: completed without reported errors.</text>
+</svg>
