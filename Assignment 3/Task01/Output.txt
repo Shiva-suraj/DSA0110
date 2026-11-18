@@ -1,0 +1,4 @@
+Title: Untitled, Copies: 0, Author: Unknown
+Title: The Alchemist, Copies: 1, Author: Unknown
+Title: Clean Code, Copies: 4, Author: Robert C. Martin
+Rejected: number of copies cannot be negative
