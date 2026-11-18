@@ -1,0 +1,9 @@
+Highest before moderation: 92
+After +2 moderation: 94
+Read-only highest: 94
+Returned copy: 94
+Index before growth: 1, value: 94
+Pointer before growth: 94
+After reserve, index remains valid: 94, saved value: 94
+Pointer/reference obtained before growth may be invalid; do not dereference it.
+Compiler warning captured: reference to local variable 'local' returned (-Wreturn-local-addr). Unsafe program not run.
