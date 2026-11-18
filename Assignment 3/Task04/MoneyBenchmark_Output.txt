@@ -1,0 +1,2 @@
+Integer paise: 1.31424 ms; result=17000123
+double: 4.572657 ms; result=170001.230001761
