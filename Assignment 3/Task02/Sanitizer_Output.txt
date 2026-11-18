@@ -1,0 +1,1 @@
+The completed deep-copy Prescription program was compiled with -fsanitize=address,undefined -fno-omit-frame-pointer and run with ASAN_OPTIONS=detect_leaks=1. It completed normally and produced the expected output; no sanitizer diagnostic was recorded.
